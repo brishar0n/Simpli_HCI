@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #FFFFF6;
+}
+
+.rectangle{
+    width: 60%;
+    height: 450px;
+    background: #F0F1F1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.sign-in-header{
+    font-family: 'Quicksand';
+    position: absolute;
+    margin-bottom: 210px;
+}
+
+.login-form {
+    position: absolute;
+    margin-top: 22px
+}
+
+.external{
+    position: absolute;
+    margin-top: 200px;
+}
+
+.create-acc{
+    position: absolute;
+    margin-top: 300px;
+}
+
+.forget-pass{
+    margin-left: 200px;
+}
+
+.sign-in-button{
+    margin-left: 185px;
+}
+
+.google-logo{
+    height: 25px;
+    width: 25px;
+}
+
+.fb-logo{
+    height: 25px;
+    width: 25px;
+    margin-left: 100px;
+}
