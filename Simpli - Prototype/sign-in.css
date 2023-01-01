@@ -1,56 +1,120 @@
-body {
-    margin: 0;
-    background-color: #FFFFF6;
+body{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+    background: #f0f1f1;
 }
-
-.rectangle{
+.sim_signin{
+	width: 100%;
+    padding: 99px 0;
+}
+.signin_container{
+	width: 80%;
+	margin: 0 auto;
+	height: 60%;
+	display: flex;
+}
+.signin_left, .signin_right{
+	
+	width: 50%;
+}
+.logo_and_login {
+    margin: 48px auto;
     width: 60%;
-    height: 450px;
-    background: #F0F1F1;
+}
+.simpli_logo{
+	width: 100%;
+}
+.signup_container {
+    margin: 15px auto;
+    width: 38%;
+}
+.signup_link{
+	font-family: arial;
+    font-size: 14px;
+    color: black;
+}
+.right_container{
+	width: 75%;
+	margin: 36px 0;
+}
+.s-log {
+	float: right;
+    color: black;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+}  
+.order {
+    background: #f0f1f1;
+    border: none;
+    padding: 12px;
+    color: #6a6a6a;
+    height: 15px;
+    font-size: 14px;
+}
+        .grid-8{
+            width: 87%;          
+        }
+        .grid-8:focus{
+            outline: none;
+        }
+        .line{
+            margin-top: 0;
+            margin-bottom: 7px;
+        }
+
+        .si-button{
+        	background: #86bbd8;
+    border: none;
+    color: white;
+    padding: 12px 13px;
     border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 120px;
+    width: 100%;
+    font-weight: 700;
+    cursor: pointer;
 }
-
-.sign-in-header{
-    font-family: 'Quicksand';
-    position: absolute;
-    margin-bottom: 210px;
+        .si-b-con{
+    margin: 20px auto;
+    width: 50%;
+    font-size: 14px;
+             }   
+             .remAndForgot{
+             	margin-top: 14px;
+             }
+.rem_me{
+	font-size: 14px;
+	color: #6a6a6a;
 }
-
-.login-form {
-    position: absolute;
-    margin-top: 22px
+.rem_check{
+	margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 13px;
+    cursor: pointer;
 }
-
-.external{
-    position: absolute;
-    margin-top: 200px;
+.siForm_end {
+    display: inline-block;
+    width: 46.9999999%;
+    vertical-align: middle;
 }
-
-.create-acc{
-    position: absolute;
-    margin-top: 300px;
+.or{
+	font-size: 12px;
+	color: #6a6a6a;
 }
-
-.forget-pass{
-    margin-left: 200px;
+.google, .facebook {
+    margin: 12px auto;
+    cursor: pointer;
 }
-
-.sign-in-button{
-    margin-left: 185px;
+.g_con{
+	width: 38%;
 }
-
-.google-logo{
-    height: 25px;
-    width: 25px;
+.fb_con{
+	width: 43%;
 }
-
-.fb-logo{
-    height: 25px;
-    width: 25px;
-    margin-left: 100px;
+.g_img, .f_img{
+	width: 18px;
+    vertical-align: middle;
+}
+.g_link, .f_link{
+	font-size: 14px;
+    color: #6a6a6a;
 }
