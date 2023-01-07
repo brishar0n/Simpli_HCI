@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+        </div>
+        <div class="logo-name">
+            <span class="logo-name">
+                <img src="images/logo.png" height=100px width=260px alt="">
+            </span>
+        </div>
+
+        <div class="sidebar">
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name1">Simpli.</span>
+            </div>
+
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="dashboard.html" class="nav-link">
+                            <i class="bx bxs-home-circle icon"></i>
+                            <span class="link">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="expenses.html" class="nav-link">
+                            <i class='bx bx-money-withdraw icon'></i>
+                            <span class="link">Expenses Tracker</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="currency.html" class="nav-link">
+                            <i class='bx bx-money icon' ></i>
+                            <span class="link">Currency Exchanger</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="bottom-content">
+                    <!-- <li class="list">
+                        <a href="contact.html" class="nav-link">
+                            <i class='bx bxs-contact icon' ></i>
+                            <span class="link">Contact Information</span>
+                        </a>
+                    </li> -->
+                    <li class="list">
+                        <a href="index.html" class="nav-link">
+                            <i class='bx bxs-log-out icon' ></i>
+                            <span class="link">Log out</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="overlay"></section>
+
+    <script>
+        const navBar = document.querySelector("nav"),
+                menuBtns = document.querySelectorAll(".menu-icon")
+                overlay = document.querySelector(".overlay")
+
+                menuBtns.forEach(menuBtn => {
+                    menuBtn.addEventListener("click", () => {
+                        navBar.classList.toggle("open");
+                    });
+                });
+
+                overlay.addEventListener("click", () => {
+                    navBar.classList.remove("open");
+                })
+    </script>
+
+    <div class="rectangle">
+        <div class="balance">
+            <h2>Your current balance:</h2>
+            <p>Rp. <span contenteditable="true">(Enter balance here)</span></p>
+        </div>
+    </div>
+
+    <div class="rectangle1">
+        <div class="savings-goals">
+            <h2>Savings Goals</h2>
+            <p>Rp. <span contenteditable="true">(Enter amount here)</span> / <span>Rp. </span><span contenteditable="true">(Enter savings goal here)</span></p>
+        </div>
+    </div>
+
+    <div class="rectangle2">
+        <div class="transaction-hist">
+            <h2 class="transaction-title">Transaction History:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item Purchased</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th contenteditable="true">?</th>
+                        <th contenteditable="true">?</th>
+                        <th contenteditable="true">?</th>
+                    </tr>
+                    <tr>
+                        <th contenteditable="true">?</th>
+                        <th contenteditable="true">?</th>
+                        <th contenteditable="true">?</th>
+                    </tr>
+                    <tr>
+                        <th contenteditable="true">?</th>
+                        <th contenteditable="true">?</th>
+                        <th contenteditable="true">?</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
