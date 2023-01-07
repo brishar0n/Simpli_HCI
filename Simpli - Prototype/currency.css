@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFFF6;
+    background-image: url(images/curr-bg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -8,8 +8,8 @@ body{
 
 .heading{
     font-family: 'Quicksand', sans-serif;
-    margin-top: 160px;
-    margin-bottom: 32px;
+    margin-top: 170px;
+    margin-bottom: 15px;
     font-size: 45px;
 }
 
@@ -18,8 +18,9 @@ body{
     margin: auto;
     padding: 30px;
     border-radius: 5px;
-    background-color: #F6AE2D;
-    color: white;
+    background-color: #C8C8C8;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 label{
@@ -28,12 +29,15 @@ label{
 
 .btn{
     width: 200px;
+    background-color: #2F4758;
 }
 
 #finalAmount{
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     display: none;
-    margin: 50px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #finalAmount h2{
