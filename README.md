@@ -1,7 +1,7 @@
 # 💲 Simpli. 
 ## _Cashing you in and cashing you out._
 ### Live Link: https://brishar0n.github.io/Simpli_HCI/
-#### *all the documents (including the mockups, prototypes, and contributions) are in [this folder](https://github.com/brishar0n/Simpli_HCI/tree/master/documents) 
+#### *all the documents (including the mockups and prototypes) are in [this folder](https://github.com/brishar0n/Simpli_HCI/tree/master/documents) 
 
 #
 
